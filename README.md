@@ -21,6 +21,6 @@ In the data extracted we noticed that there were more than one record for some e
 
 ### Summarising the information by Title
 In addition to the above, we also summarised the # of employees by title in order to provide a birdseye view of the data collected:
-![Query3](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query3.png)<br>
+![Query3](https://github.com/lallben/Pewlett-Hackard-Aalysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query3.png)<br>
 
 The data has been exported into a csv file which can be located here.
