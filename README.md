@@ -39,11 +39,16 @@ Here is a screen shot of the output:<br>
 - There are 72,458 employees that are eligible for retirement
 - Senior Engineer and Senior Staff the two largest categories in which staff will be retiring
 - There are 1,549 Staff born in 1965 are eligible for the mentorship program
-- 
+- There aren't enough staff in the current criteria for the mentorship program to handle the recruitment influx.
 ## Summary:
 #### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 There are potentially 72,548 roles that need to be filled over the next couple of years as the 'silver tsunami' begins to take effect.
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 As per the data collected for the employees eligible for the mentorship program, there do not seem to be enough qualifies , retirement-ready employees in the departments. However rather than limit the mentorship program to employees born in 1965, if we expand the mentorship program to include five years i.e. from 1960 to 1965, as we should, we can see that we have the required resources.
-In order to reach this conclusion I did the following queries:
+In order to reach this conclusion I did the following queries:<br>
+#### Query #1
+![Mentorship_new](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/new_mentorship_eligibility_query.png)<br>
+Here is a screen shot of the output:<br>
+![Mentorship_new_data](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/new_mentorship_eligibility_data.png)<br>
+
 
