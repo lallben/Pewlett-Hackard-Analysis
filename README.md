@@ -18,7 +18,7 @@ The data has been exported into a csv file which can be located at [this link.](
 Here is a screen shot of the output:<br>
 ![Retirement Titles](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/retirement_titles.png)<br>
 ### Eliminating duplicate records
-In the data extracted we noticed that there were more than one record for some employees becuase they had held multiple positions suring their tenure at Pewlett-Hackard. While that was relevant, for the purposes of our records we needed unique records for each employee indicating their last title held. Furthermore we also had to make sure that the data included only those employees that were currently working at Pewlett-Hackard. The earlier query parsed the above data to acheive that result:
+In the data extracted we noticed that there were more than one record for some employees becuase they had held multiple positions suring their tenure at Pewlett-Hackard. While that was relevant, for the purposes of our records we needed unique records for each employee indicating their last title held. Furthermore we also had to make sure that the data included only those employees that were currently working at Pewlett-Hackard. The earlier query parsed the above data to acheive that result:<br>
 ![Query2](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query2.png)<br>
 The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/unique_titles.csv)
 Here is a screen shot of the output:<br>
@@ -35,9 +35,15 @@ This step involved identifying the employees currently employed with Pewlett-Hac
 The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/mentorship_eligibility.csv)
 Here is a screen shot of the output:<br>
 ![Mentorship](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/mentorship_eligibility.png)<br>
-## Results
+## Results:
 - There are 72,458 employees that are eligible for retirement
-- Senior Engineer and Senior Staff the tewo largest categories in which staff will be retiring
+- Senior Engineer and Senior Staff the two largest categories in which staff will be retiring
 - There are 1,549 Staff born in 1965 are eligible for the mentorship program
 - 
+## Summary:
+#### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+There are potentially 72,548 roles that need to be filled over the next couple of years as the 'silver tsunami' begins to take effect.
+#### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+As per the data collected for the employees eligible for the mentorship program, there do not seem to be enough qualifies , retirement-ready employees in the departments. However rather than limit the mentorship program to employees born in 1965, if we expand the mentorship program to include five years i.e. from 1960 to 1965, as we should, we can see that we have the required resources.
+In order to reach this conclusion I did the following queries:
 
