@@ -18,7 +18,7 @@ The data has been exported into a csv file which can be located at [this link.](
 Here is a screen shot of the output:<br>
 ![Retirement Titles](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/retirement_titles.png)<br>
 ### Eliminating duplicate records
-In the data extracted we noticed that there were more than one record for some employees becuase they had held multiple positions suring their tenure at Pewlett-Hackard. While that was relevant, for the purposes of our records we needed unique records for each employee indicating their last title held. This query parsed the above data to acheive that result:
+In the data extracted we noticed that there were more than one record for some employees becuase they had held multiple positions suring their tenure at Pewlett-Hackard. While that was relevant, for the purposes of our records we needed unique records for each employee indicating their last title held. Furthermore we also had to make sure that the data included only those employees that were currently working at Pewlett-Hackard. The earlier query parsed the above data to acheive that result:
 ![Query2](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query2.png)<br>
 The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/unique_titles.csv)
 Here is a screen shot of the output:<br>
@@ -26,6 +26,12 @@ Here is a screen shot of the output:<br>
 ### Summarising the information by Title
 In addition to the above, we also summarised the # of employees by title in order to provide a birdseye view of the data collected:<br>
 ![Query3](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query3.png)<br>
-The data has been exported into a csv file which can be located [here](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retiring_titles.csv)<br>
+The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retiring_titles.csv)<br>
 Here is a screen shot of the output:<br>
 ![Summary](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/summary_titles.png)<br>
+## Step Three
+This step involved identifying the employees currently employed with Pewlett-Hackard with birth dates in 1965. These would be the employees that would be given the option of being part of the mentorship program. I used the following query:<br>
+![Query3](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query3.png)<br>
+The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/mentorship_eligibility.csv)
+Here is a screen shot of the output:<br>
+![Mentorship](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/mentorship_eligibility.png)<br>
