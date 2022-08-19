@@ -35,3 +35,9 @@ This step involved identifying the employees currently employed with Pewlett-Hac
 The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/mentorship_eligibility.csv)
 Here is a screen shot of the output:<br>
 ![Mentorship](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/mentorship_eligibility.png)<br>
+## Results
+- There are 72,458 employees that are eligible for retirement
+- Senior Engineer and Senior Staff the tewo largest categories in which staff will be retiring
+- There are 1,549 Staff born in 1965 are eligible for the mentorship program
+- 
+
