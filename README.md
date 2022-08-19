@@ -14,13 +14,18 @@ Once the schema was established, the next step was to begin to pull the pertinen
 ### Retiring Employees with Titles
 The following query was created to accomplish the task:<br>
 ![Query1](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query1.png)<br>
-The data has been exported into a csv file which can be located [here](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retirement_titles.csv)<br>
+The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retirement_titles.csv)
+Here is a screen shot of the output:<br>
+![Retirement Titles](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/retirement_titles.png)<br>
 ### Eliminating duplicate records
 In the data extracted we noticed that there were more than one record for some employees becuase they had held multiple positions suring their tenure at Pewlett-Hackard. While that was relevant, for the purposes of our records we needed unique records for each employee indicating their last title held. This query parsed the above data to acheive that result:
 ![Query2](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query2.png)<br>
-The data has been exported into a csv file which can be located [here](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/unique_titles.csv)<br>
-
+The data has been exported into a csv file which can be located at [this link.](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/unique_titles.csv)
+Here is a screen shot of the output:<br>
+![Unique Titles](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/unique_titles.png)<br>
 ### Summarising the information by Title
-In addition to the above, we also summarised the # of employees by title in order to provide a birdseye view of the data collected:
+In addition to the above, we also summarised the # of employees by title in order to provide a birdseye view of the data collected:<br>
 ![Query3](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/query3.png)<br>
 The data has been exported into a csv file which can be located [here](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retiring_titles.csv)<br>
+Here is a screen shot of the output:<br>
+![Summary](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/summary_titles.png)<br>
