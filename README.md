@@ -46,9 +46,13 @@ There are potentially 72,548 roles that need to be filled over the next couple o
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 As per the data collected for the employees eligible for the mentorship program, there do not seem to be enough qualifies , retirement-ready employees in the departments. However rather than limit the mentorship program to employees born in 1965, if we expand the mentorship program to include five years i.e. from 1960 to 1965, as we should, we can see that we have the required resources.
 In order to reach this conclusion I did the following queries:<br>
-#### Query #1
+#### Query #1 - expanding the mentorship program criteria (1960-1965)
 ![Mentorship_new](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/new_mentorship_eligibility_query.png)<br>
 Here is a screen shot of the output:<br>
 ![Mentorship_new_data](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/new_mentorship_eligibility_data.png)<br>
-
+#### Query #2 - new mentorship pool grouped by titles
+This query was done to ascertain that there would be enough mentors in each title category to mentor the new recruitments in the event of the 'silver tsunami'.<br>
+![Mentorship_grouped](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/mentorship_pool_query.png)<br>
+Here is a screen shot of the output:<br>
+![Mentorship_grouped_data](https://github.com/lallben/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/mentorship_pool_titles.png)<br>
 
